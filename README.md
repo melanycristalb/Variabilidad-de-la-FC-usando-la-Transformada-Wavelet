@@ -10,7 +10,7 @@
 
 ## Introducción 
 ## Fundamento teorico
-Actividad simpática y parasimpática del sistema nervioso autónoma
+**Actividad simpática y parasimpática del sistema nervioso autónoma**
 
 El sistema nervioso autónomo (SNA) regula funciones involuntarias del cuerpo como la frecuencia cardíaca, la respiración y la digestión. Se divide en dos:
 
@@ -29,7 +29,7 @@ Banda de alta frecuencia (HF): 0.15 – 0.4 Hz → asociada con actividad parasi
 Banda de baja frecuencia (LF): 0.04 – 0.15 Hz → refleja actividad simpática y parasimpática combinadas.
 Banda de muy baja frecuencia (VLF): <0.04 Hz → mecanismos más complejos, menos comprendidos.
 
-Transformada Wavelet
+**Transformada Wavelet**
 
 La Transformada Wavelet es una técnica de análisis tiempo-frecuencia que permite descomponer una señal en componentes localizados tanto en el tiempo como en la frecuencia. A diferencia de la FFT (Transformada Rápida de Fourier), la wavelet permite detectar cambios transitorios y analizar señales no estacionarias, como el ECG.
 
