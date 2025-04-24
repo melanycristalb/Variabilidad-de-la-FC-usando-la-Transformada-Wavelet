@@ -14,10 +14,10 @@
 
 El sistema nervioso autónomo (SNA) regula funciones involuntarias del cuerpo como la frecuencia cardíaca, la respiración y la digestión. Se divide en dos:
 
-Simpática: Prepara al cuerpo para situaciones de “lucha o huida”. Aumenta la frecuencia cardíaca, la presión arterial y dilata las vías respiratorias.
+**Simpática**: Prepara al cuerpo para situaciones de “lucha o huida”. Aumenta la frecuencia cardíaca, la presión arterial y dilata las vías respiratorias.
 Estimulación simpática: Incrementa la frecuencia cardíaca (taquicardia) al liberar noradrenalina, que actúa sobre los receptores beta del corazón.
 
-Parasimpática: Promueve un estado de “descanso y digestión”. Disminuye la frecuencia cardíaca, aumenta la actividad digestiva y favorece la relajación.
+**Parasimpática**: Promueve un estado de “descanso y digestión”. Disminuye la frecuencia cardíaca, aumenta la actividad digestiva y favorece la relajación.
 Estimulación parasimpática: Reduce la frecuencia cardíaca (bradicardia) a través del nervio vago, que libera acetilcolina, disminuyendo la velocidad de despolarización del nodo sinoauricular.
 
 La variabilidad de la frecuencia cardiaca (HRV) se refiere a las variaciones en el tiempo entre latidos consecutivos del corazón, específicamente en los intervalos R-R del ECG.
@@ -33,7 +33,7 @@ Banda de muy baja frecuencia (VLF): <0.04 Hz → mecanismos más complejos, meno
 
 La Transformada Wavelet es una técnica de análisis tiempo-frecuencia que permite descomponer una señal en componentes localizados tanto en el tiempo como en la frecuencia. A diferencia de la FFT (Transformada Rápida de Fourier), la wavelet permite detectar cambios transitorios y analizar señales no estacionarias, como el ECG.
 
-Usos en señales biológicas:
+**Usos en señales biológicas**:
 Detección de picos R en ECG.
 Análisis de la variabilidad de la frecuencia cardíaca HRV.
 Caracterización de señales EEG, EMG y otras biopotenciales para ver cómo cambian en el tiempo.
