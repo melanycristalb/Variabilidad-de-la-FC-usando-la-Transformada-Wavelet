@@ -38,7 +38,7 @@ Detección de picos R en ECG.
 Análisis de la variabilidad de la frecuencia cardíaca HRV.
 Caracterización de señales EEG, EMG y otras biopotenciales para ver cómo cambian en el tiempo.
 
-Tipos de wavelet comunes en señales biológicas:
+**Tipos de wavelet comunes en señales biológicas**:
 Daubechies (db): muy usada para detectar picos R por su forma similar a las ondas ECG.
 Coiflets y Symlets: versiones modificadas de Daubechies, con mejores propiedades de simetría y regularidad.
 Wavelet de Morlet: útil en transformada wavelet continua (CWT), por su buena resolución frecuencia-temporal.
