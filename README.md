@@ -73,7 +73,19 @@ En el presente estudio se aplicó la transformada waveleta la señal interpolada
 
  Para evaluar la variabilidad de la frecuencia cardíaca (HRV) en el dominio del tiempo, se calcularon los parámetros estadísticos a partir de los intervalos R-R detectados en la señal ECG filtrada. Entre ellos se encuentran la media de los intervalos R-R (AVNN), que refleja el ritmo cardíaco promedio; la desviación estándar de los intervalos R-R (SDNN), como medida de la variabilidad global del sistema nervioso autónomo; el RMSSD, que cuantifica la variabilidad a corto plazo asociada principalmente a la actividad parasimpática; y el pNN50, que representa el porcentaje de diferencias sucesivas entre intervalos R-R mayores a 50 ms. En el análisis realizado, la media de los intervalos R-R fue consistente con una frecuencia cardíaca cercana a 80 bpm, mientras que los valores de SDNN y RMSSD se mantuvieron en rangos moderados, sugiriendo un equilibrio aceptable entre las ramas simpática y parasimpática. No obstante, un valor bajo de pNN50 indicó escasa fluctuación entre latidos consecutivos, lo cual podría reflejar una actividad vagal disminuida o un patrón respiratorio muy regular, especialmente durante condiciones de reposo. Este análisis estadístico permite no solo caracterizar el comportamiento autonómico del sujeto, sino también establecer una línea base sobre la cual podrían evaluarse futuros estados de estrés, fatiga o disfunción autonómica.
 
+ ## Diagrama de flujo
+
+ ![diagramadeflujo](https://github.com/user-attachments/assets/2346c782-7df6-49cc-88e9-f2801d291ac2)
+
+
 ## Resultados
+
+![señalECGlab5](https://github.com/user-attachments/assets/f23d8383-2b0c-4241-a3de-ec241253a92d)
+
+
+![ecg wavelet](https://github.com/user-attachments/assets/941fe76f-1e6e-46c8-8286-0af7aa714366)
+
+
 
 Analisis HVR en el dominio del tiempo: Se calcularon los parametros sobre el intervalos R-R 
 -Media RR: Frecuencia cardiaca promedio 80bpm
@@ -82,7 +94,7 @@ Analisis HVR en el dominio del tiempo: Se calcularon los parametros sobre el int
 -pNN50: Parámetro utilizado en el análisis de la variabilidad de la frecuencia cardiaca (VFC) que mide la proporción de intervalos R-R consecutivos en un electrocardiograma (ECG
 Durante reposo, se espera una HRV moderada, con dominio vagal (parasimpático)
 
-## Diagrama de flujo
+
 
 
 
