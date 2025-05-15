@@ -80,10 +80,15 @@ Analisis HVR en el dominio del tiempo: Se calcularon los parametros sobre el int
 -SDNN:  Mide la dispersión de los intervalos entre latidos cardíacos, lo que puede indicar la salud del sistema nervioso autónomo
 -RMSSD: Refleja la actividad parasimpatica 
 -pNN50: Parámetro utilizado en el análisis de la variabilidad de la frecuencia cardiaca (VFC) que mide la proporción de intervalos R-R consecutivos en un electrocardiograma (ECG
+Durante reposo, se espera una HRV moderada, con dominio vagal (parasimpático)
 
 ## Diagrama de flujo
 
 
-Durante reposo, se espera una HRV moderada, con dominio vagal (parasimpático)
+
 
 ## Conclusiones
+
+El presente estudio permitió realizar un análisis de la variabilidad de la frecuencia cardíaca (HRV) mediante el procesamiento digital de señales aplicadas a una señal ECG. La implementación de un filtro IIR pasa banda con frecuencias de corte adecuadas (0.5–40 Hz) logró un filtrado efectivo de la señal, permitiendo una detección confiable de los picos R y el cálculo de los intervalos R-R. A partir de esta información, se evaluaron los parámetros clásicos de la HRV en el dominio del tiempo (media RR, SDNN, RMSSD y pNN50), obteniendo valores coherentes con un sujeto en estado de reposo, pero con cierta evidencia de actividad vagal moderadamente reducida, especialmente reflejada en el valor bajo de pNN50.
+
+Posteriormente, mediante la aplicación de la transformada wavelet tipo Morlet, se generó un espectrograma que permitió visualizar la distribución de energía en diferentes bandas de frecuencia a lo largo del tiempo. Este análisis evidenció una potencia predominante en la banda de baja frecuencia (LF), lo que indica una influencia autonómica mixta (simpática y parasimpática), y una potencia reducida en la banda de alta frecuencia (HF), que sugiere una menor modulación parasimpática posiblemente asociada a un patrón respiratorio estable o bajo tono vagal. Las frecuencias se mantuvieron estables durante toda la adquisición, con transiciones no tan bruscas que muestra el nivel de estres y el de reposo
