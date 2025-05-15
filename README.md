@@ -38,6 +38,9 @@ Banda de alta frecuencia (HF): 0.15 – 0.4 Hz → asociada con actividad parasi
 Banda de baja frecuencia (LF): 0.04 – 0.15 Hz → refleja actividad simpática y parasimpática combinadas.
 Banda de muy baja frecuencia (VLF): <0.04 Hz → mecanismos más complejos, menos comprendidos.
 
+
+
+
 **Transformada Wavelet**
 
 La Transformada Wavelet es una técnica de análisis tiempo-frecuencia que permite descomponer una señal en componentes localizados tanto en el tiempo como en la frecuencia. A diferencia de la FFT (Transformada Rápida de Fourier), la wavelet permite detectar cambios transitorios y analizar señales no estacionarias, como el ECG.
@@ -57,6 +60,10 @@ En el presente estudio se aplicó la transformada waveleta la señal interpolada
 ## Diseño de filtro IIR
 
  Se realizo el filtrado eliminando ruido de baja frecuencia (movimientos respiratorios) y ruido de añta frecuencia (actividad muscular, interferencia electrica), se uso una frecuencia de muestreo de 250Hz, con frecuencias de corte de 0.5Hz para eliminar oscilaciones lentas que no son propias del electrocardiograma, y de 40 Hz obteniendo los componentes del QRS (los cuales oscilan entre 10-30Hz) y elimina el ruido muscular que es mayor a 40Hz
+
+ ## Variabilidad de la frecuencia cardiaca (HVR)
+
+ Para evaluar la variabilidad de la frecuencia cardíaca (HRV) en el dominio del tiempo, se calcularon los parámetros estadísticos a partir de los intervalos R-R detectados en la señal ECG filtrada. Entre ellos se encuentran la media de los intervalos R-R (AVNN), que refleja el ritmo cardíaco promedio; la desviación estándar de los intervalos R-R (SDNN), como medida de la variabilidad global del sistema nervioso autónomo; el RMSSD, que cuantifica la variabilidad a corto plazo asociada principalmente a la actividad parasimpática; y el pNN50, que representa el porcentaje de diferencias sucesivas entre intervalos R-R mayores a 50 ms. En el análisis realizado, la media de los intervalos R-R fue consistente con una frecuencia cardíaca cercana a 80 bpm, mientras que los valores de SDNN y RMSSD se mantuvieron en rangos moderados, sugiriendo un equilibrio aceptable entre las ramas simpática y parasimpática. No obstante, un valor bajo de pNN50 indicó escasa fluctuación entre latidos consecutivos, lo cual podría reflejar una actividad vagal disminuida o un patrón respiratorio muy regular, especialmente durante condiciones de reposo. Este análisis estadístico permite no solo caracterizar el comportamiento autonómico del sujeto, sino también establecer una línea base sobre la cual podrían evaluarse futuros estados de estrés, fatiga o disfunción autonómica.
 
 ## Resultados
 
