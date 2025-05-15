@@ -44,5 +44,24 @@ Caracterización de señales EEG, EMG y otras biopotenciales para ver cómo camb
 Daubechies (db): muy usada para detectar picos R por su forma similar a las ondas ECG.
 Coiflets y Symlets: versiones modificadas de Daubechies, con mejores propiedades de simetría y regularidad.
 Wavelet de Morlet: útil en transformada wavelet continua (CWT), por su buena resolución frecuencia-temporal.
+
+##
+
+
+## Diseño de filtro IIR
+
+ Se realizo el filtrado eliminando ruido de baja frecuencia (movimientos respiratorios) y ruido de añta frecuencia (actividad muscular, interferencia electrica), se uso una frecuencia de muestreo de 250Hz, con frecuencias de corte de 0.5Hz para eliminar oscilaciones lentas que no son propias del electrocardiograma, y de 40 Hz obteniendo los componentes del QRS (los cuales oscilan entre 10-30Hz) y elimina el ruido muscular que es mayor a 40Hz
+
 ## Resultados
+
+Analisis HVR en el dominio del tiempo: Se calcularon los parametros sobre el intervalos R-R 
+-Media RR: Frecuencia cardiaca promedio 80bpm
+-SDNN:  Mide la dispersión de los intervalos entre latidos cardíacos, lo que puede indicar la salud del sistema nervioso autónomo
+-RMSSD: Refleja la actividad parasimpatica 
+-pNN50: Parámetro utilizado en el análisis de la variabilidad de la frecuencia cardiaca (VFC) que mide la proporción de intervalos R-R consecutivos en un electrocardiograma (ECG
+
+
+
+Durante reposo, se espera una HRV moderada, con dominio vagal (parasimpático)
+
 ## Conclusiones
