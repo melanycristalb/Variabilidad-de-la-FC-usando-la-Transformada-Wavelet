@@ -4,9 +4,8 @@
 1.[Introducción](#introducción)
 2.[Requisitos](#requisitos)
 3.[Fundamento teorico](#fundamento-teorico)
-4.[Explicación del Código](#explicación-del-código)
-5.[Resultados y Gráficas](#resultados-y-gráficas)
-6.[Conclusión](#conclusión)
+4.[Resultados y Gráficas](#resultados-y-gráficas)
+5.[Conclusión](#conclusión)
 
 ## Introducción 
 El análisis de la variabilidad de la frecuencia cardíaca (HRV) es una herramienta no invasiva ampliamente utilizada para evaluar el funcionamiento del sistema nervioso autónomo (SNA), particularmente el balance entre sus ramas simpática y parasimpática. La HRV se mide a partir de los cambios en los intervalos entre latidos sucesivos del corazón (intervalos R-R), extraídos de una señal electrocardiográfica (ECG). Este análisis permite detectar alteraciones fisiológicas asociadas a estrés, enfermedades cardiovasculares, fatiga o estados emocionales.
