@@ -19,8 +19,8 @@ Dado que esta práctica involucra la captura de señales fisiológicas de un ser
 - **Python** Instalado en tu sistema.
 - **Arduino** Instalado en tu sistema.
 - **Bibliotecas de Python:** `numpy`,`matplotlib.pyplot`,`scipy`,`sklearn`.
--Modulo AD8232
-- Electrodos
+-**Modulo AD8232**
+- **Electrodos**
 
 ## Fundamento teorico
 **Actividad simpática y parasimpática del sistema nervioso autónoma**
