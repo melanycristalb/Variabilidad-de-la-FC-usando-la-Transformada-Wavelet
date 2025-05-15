@@ -20,6 +20,9 @@ Estimulación simpática: Incrementa la frecuencia cardíaca (taquicardia) al li
 **Parasimpática**: Promueve un estado de “descanso y digestión”. Disminuye la frecuencia cardíaca, aumenta la actividad digestiva y favorece la relajación.
 Estimulación parasimpática: Reduce la frecuencia cardíaca (bradicardia) a través del nervio vago, que libera acetilcolina, disminuyendo la velocidad de despolarización del nodo sinoauricular.
 
+SNA (Sistema Nervioso Autónomo):
+Regula la actividad del corazón a través de la rama simpática (acelera frecuencia cardíaca) y parasimpática (la reduce). La HRV (Heart Rate Variability) refleja el balance entre estas ramas.
+
 La variabilidad de la frecuencia cardiaca (HRV) se refiere a las variaciones en el tiempo entre latidos consecutivos del corazón, específicamente en los intervalos R-R del ECG.
 
 Se considera un indicador del equilibrio entre el sistema simpático y parasimpático, porque la HRV refleja cómo el cuerpo ajusta la frecuencia cardíaca en respuesta a estímulos, mostrando el balance dinámico entre la activación del sistema simpático (acelera el corazón) y del parasimpático (lo desacelera).
@@ -33,8 +36,6 @@ Banda de muy baja frecuencia (VLF): <0.04 Hz → mecanismos más complejos, meno
 
 La Transformada Wavelet es una técnica de análisis tiempo-frecuencia que permite descomponer una señal en componentes localizados tanto en el tiempo como en la frecuencia. A diferencia de la FFT (Transformada Rápida de Fourier), la wavelet permite detectar cambios transitorios y analizar señales no estacionarias, como el ECG.
 
-
-
 **Usos en señales biológicas**:
 Detección de picos R en ECG.
 Análisis de la variabilidad de la frecuencia cardíaca HRV.
@@ -44,8 +45,6 @@ Caracterización de señales EEG, EMG y otras biopotenciales para ver cómo camb
 Daubechies (db): muy usada para detectar picos R por su forma similar a las ondas ECG.
 Coiflets y Symlets: versiones modificadas de Daubechies, con mejores propiedades de simetría y regularidad.
 Wavelet de Morlet: útil en transformada wavelet continua (CWT), por su buena resolución frecuencia-temporal.
-
-##
 
 
 ## Diseño de filtro IIR
@@ -60,6 +59,7 @@ Analisis HVR en el dominio del tiempo: Se calcularon los parametros sobre el int
 -RMSSD: Refleja la actividad parasimpatica 
 -pNN50: Parámetro utilizado en el análisis de la variabilidad de la frecuencia cardiaca (VFC) que mide la proporción de intervalos R-R consecutivos en un electrocardiograma (ECG
 
+## Diagrama de flujo
 
 
 Durante reposo, se espera una HRV moderada, con dominio vagal (parasimpático)
