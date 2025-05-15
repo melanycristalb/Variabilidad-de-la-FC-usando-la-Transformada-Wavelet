@@ -33,6 +33,8 @@ Banda de muy baja frecuencia (VLF): <0.04 Hz → mecanismos más complejos, meno
 
 La Transformada Wavelet es una técnica de análisis tiempo-frecuencia que permite descomponer una señal en componentes localizados tanto en el tiempo como en la frecuencia. A diferencia de la FFT (Transformada Rápida de Fourier), la wavelet permite detectar cambios transitorios y analizar señales no estacionarias, como el ECG.
 
+
+
 **Usos en señales biológicas**:
 Detección de picos R en ECG.
 Análisis de la variabilidad de la frecuencia cardíaca HRV.
