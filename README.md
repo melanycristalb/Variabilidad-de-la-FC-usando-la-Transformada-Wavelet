@@ -81,11 +81,11 @@ En el presente estudio se aplicó la transformada waveleta la señal interpolada
 ## Resultados
 
 ![señalECGlab5](https://github.com/user-attachments/assets/f23d8383-2b0c-4241-a3de-ec241253a92d)
-
+Se observa la señal bruta antes de ser procesada con los filtros IIR para eliminar el ruido y resaltar los picos R
 
 ![ecg wavelet](https://github.com/user-attachments/assets/941fe76f-1e6e-46c8-8286-0af7aa714366)
 
-
+Se muestra los picos R marcados en rojo, representando los intervalos R-R de los primeros 15 segundos. Adicionalmente, muestra el espectograma en funcion del tiempo y frecuencia donde se observan variaciones en las bandas de frecuencia, refleja cambios en las potencias de baja y alta frecuencia a lo largo del tiempo, lo cual se relaciona directamente con el analisis simpatico y parasimpatico, el tacograma nos indica la regularidad de los intervalos R-R (estabilidad del ritmo cardiaco)
 
 Analisis HVR en el dominio del tiempo: Se calcularon los parametros sobre el intervalos R-R 
 -Media RR: Frecuencia cardiaca promedio 80bpm
