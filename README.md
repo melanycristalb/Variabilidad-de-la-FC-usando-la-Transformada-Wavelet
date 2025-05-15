@@ -15,6 +15,14 @@ En esta práctica de laboratorio se pretende aplicar herramientas de procesamien
 
 Dado que esta práctica involucra la captura de señales fisiológicas de un ser humano, se consideraron principios éticos fundamentales. Previamente a la adquisición de la señal ECG, se obtuvo el consentimiento informado del participante. Este documento fue firmado tras una explicación clara del procedimiento, sus fines académicos, la duración del experimento, el manejo confidencial de los datos, y la opción de retirarse en cualquier momento sin consecuencias. Además, se garantizó que el participante no presentara condiciones médicas que contraindiquen la participación en la prueba
 .
+
+## Requisitos
+- **Python** Instalado en tu sistema.
+- **Arduino** Instalado en tu sistema.
+- **Bibliotecas de Python:** `numpy`,`matplotlib.pyplot`,`scipy`,`sklearn`.
+-Modulo AD8232
+- Electrodos
+
 ## Fundamento teorico
 **Actividad simpática y parasimpática del sistema nervioso autónoma**
 
