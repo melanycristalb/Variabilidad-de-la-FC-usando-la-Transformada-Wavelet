@@ -9,6 +9,12 @@
 6.[Conclusión](#conclusión)
 
 ## Introducción 
+El análisis de la variabilidad de la frecuencia cardíaca (HRV) es una herramienta no invasiva ampliamente utilizada para evaluar el funcionamiento del sistema nervioso autónomo (SNA), particularmente el balance entre sus ramas simpática y parasimpática. La HRV se mide a partir de los cambios en los intervalos entre latidos sucesivos del corazón (intervalos R-R), extraídos de una señal electrocardiográfica (ECG). Este análisis permite detectar alteraciones fisiológicas asociadas a estrés, enfermedades cardiovasculares, fatiga o estados emocionales.
+
+En esta práctica de laboratorio se pretende aplicar herramientas de procesamiento digital de señales (DSP) para el análisis cuantitativo de la HRV. Para ello, se adquiere una señal ECG de un sujeto en estado de reposo y se aplica un conjunto de técnicas que incluyen el filtrado digital IIR, la detección de picos R, el cálculo de intervalos R-R, y el análisis en el dominio del tiempo. Posteriormente, se implementa una transformada wavelet para observar cómo varían las frecuencias fisiológicas asociadas a la HRV a lo largo del tiempo, permitiendo así una caracterización más completa y dinámica del comportamiento cardíaco.
+
+Dado que esta práctica involucra la captura de señales fisiológicas de un ser humano, se consideraron principios éticos fundamentales. Previamente a la adquisición de la señal ECG, se obtuvo el consentimiento informado del participante. Este documento fue firmado tras una explicación clara del procedimiento, sus fines académicos, la duración del experimento, el manejo confidencial de los datos, y la opción de retirarse en cualquier momento sin consecuencias. Además, se garantizó que el participante no presentara condiciones médicas que contraindiquen la participación en la prueba
+.
 ## Fundamento teorico
 **Actividad simpática y parasimpática del sistema nervioso autónoma**
 
