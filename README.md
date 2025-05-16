@@ -21,6 +21,7 @@ Dado que esta práctica involucra la captura de señales fisiológicas de un ser
 - **Arduino** Instalado en tu sistema.
 - **Bibliotecas de Python:** `numpy`,`matplotlib.pyplot`,`scipy`,`sklearn`.
 - **Modulo AD8232**
+- **Microcontrolador:** Arduino/ESP32/DAQ
 - **Electrodos**
 
 ## Fundamento teorico
