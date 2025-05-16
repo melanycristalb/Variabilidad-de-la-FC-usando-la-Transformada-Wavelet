@@ -59,10 +59,10 @@ Análisis de la variabilidad de la frecuencia cardíaca HRV.
 Caracterización de señales EEG, EMG y otras biopotenciales para ver cómo cambian en el tiempo.
 
 **Tipos de wavelet comunes en señales biológicas**:
--Daubechies (db): muy usada para detectar picos R por su forma similar a las ondas ECG.
--Coiflets y Symlets: versiones modificadas de Daubechies, con mejores propiedades de simetría y regularidad.
--Biorthogonal: Tiene una simetria muy exacta y tiene la capacidad de representar estructuras abruptas como las variaciones entre los intervalos de los picos R-R 
--Wavelet de Morlet: útil en transformada wavelet continua (CWT), por su buena resolución frecuencia-temporal.
+- **Daubechies (db):** muy usada para detectar picos R por su forma similar a las ondas ECG.
+- **Coiflets y Symlets:** versiones modificadas de Daubechies, con mejores propiedades de simetría y regularidad.
+- **Biorthogonal:** Tiene una simetria muy exacta y tiene la capacidad de representar estructuras abruptas como las variaciones entre los intervalos de los picos R-R 
+- **Wavelet de Morlet:** útil en transformada wavelet continua (CWT), por su buena resolución frecuencia-temporal.
 
 En el presente estudio se aplicó la transformada wavelet la señal interpolada de HRV, utilizando la wavelet tipo Morlet, recomendada para señales biológicas debido a su adecuada resolución en el dominio tiempo-frecuencia. El espectrograma resultante permitió observar la distribución dinámica de las frecuencias a lo largo del tiempo, revelando una mayor potencia sostenida en la banda de baja frecuencia (0.04–0.15 Hz), asociada a la regulación del sistema simpático y parasimpático. En contraste, la banda de alta frecuencia (HF: 0.15–0.4 Hz), vinculada principalmente a la actividad parasimpática modulada por la respiración, mostró una potencia reducida y poco variable. Esta diferencia sugiere un predominio simpático o una actividad vagal disminuida, lo cual es consistente con un estado de reposo sin estimulación externa, pero con un bajo rango de oscilación respiratoria. A lo largo del tiempo, las frecuencias se mantuvieron relativamente estables, sin transiciones bruscas, reflejando una condición fisiológica controlada  durante el periodo de medición.
 
