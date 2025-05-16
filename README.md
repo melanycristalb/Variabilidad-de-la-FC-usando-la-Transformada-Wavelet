@@ -1,4 +1,4 @@
-# Variabilidad-de-la-FC-usando-la-Transformada-Wavelet
+# Variabilidad de la FC usando la Transformada Wavelet
 
 ## Tabla de Contenidos 
 1.[Introducción](#introducción)
